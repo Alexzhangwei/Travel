@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+		<!-- 显示的是当前路由地址所对应的内容 -->
+		 <!-- 5.绑定路由 -->
+		<router-link to="/"></router-link>
+		<router-link to="/city"></router-link>
+		<!-- 6.渲染路由-->
+		<router-view></router-view>
   </div>
 </template>
 
@@ -13,11 +17,6 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
